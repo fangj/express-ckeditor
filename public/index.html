@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='js/tinymce/tinymce.min.js'></script>
+  <script>
+  tinymce.init({
+    selector: '#mytextarea',
+     language: 'zh_CN'
+  });
+  </script>
+  <script src='js/jquery-3.1.0.min.js'></script>
+</head>
+
+<body>
+<h1>TinyMCE Quick Start Guide</h1>
+  <form  id="myform" method="post">
+    <textarea id="mytextarea">Hello, World!</textarea>
+    <input type="submit" value="保存"/>
+  </form>
+  <script>
+	$("#myform").submit(function(e){
+		tinyMCE.get("mytextarea").save();
+		console.log(mytextarea.value);
+		return false;
+	})
+  </script>
+</body>
+</html>

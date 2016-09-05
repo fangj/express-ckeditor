@@ -1,0 +1,23 @@
+{
+  "name": "express-tinymce",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangj/express-tinymce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fangj/express-tinymce/issues"
+  },
+  "homepage": "https://github.com/fangj/express-tinymce#readme"
+}
