@@ -5,7 +5,10 @@
   <script>
   tinymce.init({
     selector: '#mytextarea',
-     language: 'zh_CN'
+     language: 'zh_CN',
+     plugins: "image ",
+     images_upload_url: 'postAcceptor.php',
+     images_upload_base_path: '/some/basepath'
   });
   </script>
   <script src='js/jquery-3.1.0.min.js'></script>
